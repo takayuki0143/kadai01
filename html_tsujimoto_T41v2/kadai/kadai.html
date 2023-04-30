@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="kadai.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Building 入学試験</title>
+</head>
+<body>
+    <div class="cheese" id="cheese">
+        <h1 class="exam">Cheese Building 入学試験</h1>
+        <p class="exam">0から100の好きな数字を入力してください</p>
+    </div>
+    <div class="sentence">
+        <h1 class="hoge"></h1>
+    </div>
+
+    <div class="answer-area">
+        <input type="text" id="send">
+        <input type="button" value="answer" id="answer" onclick="counter()">
+    </div>
+
+    <h2 class="test">
+        <span id="press-button">0</span>回
+    </h2>
+        
+    <audio src="sounds.mp3" id="sounds"></audio>
+
+    <div class="js">
+        <div class="views" id="views"></div>
+        <div class="worlds" id="worlds"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+
+        var not = 0;
+        function counter(){
+        not++;
+        document.getElementById("press-button").innerHTML = not;
+        }//当たるまでのクリック数を出したい
+
+        let r;
+        $(document).ready(function() {
+      r = Math.ceil(Math.random() * 100);//1~100までの数字がランダムでrに入る
+      $("#answer").on("click", function() {
+        const n = parseInt($("#send").val());//入力した数字を変数nに代入している
+        $("#send").val('');// クリックしたら空欄に戻す
+        
+        if(n > r) {
+            view = 'もっと小さな数字を入力してください';
+        }if(n < r) {
+            view = 'もっと大きな数字を入力してください';
+        } if(n == r) {
+            view = '正解！'; 
+            $("#answer").on("click",function(){
+                location.replace("file:///Users/takayuki/Desktop/html_tsujimoto_T41v2/sentou/cheese.html");
+            });
+        if(not <= 7){
+                    world = '合格。君もチーズビルダーにならないか？';
+                    
+            }
+            if(not > 7){
+                    world = '不合格。間違えすぎですね。';
+                    
+            }
+        }
+       
+        $("#views").html(view);
+        $("#worlds").html(world);
+        
+      });
+    });
+
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpWFQ9vOUckZvNj7r6og9HvSkPfOJ-fGiZA&usqp=CAU);
+}
+.cheese{
+    background-color: yellow;
+    border-radius: 20px;
+}
+.exam{
+    font-size: 50px;
+    color:red;
+    text-align: center;
+}
+#send{
+    font-size: 50px;
+    border-radius: 24px;
+}
+#answer{
+    font-size: 50px;
+    border-radius: 24px;
+    background-color: ;
+    margin-left: 50px;
+}
+.answer-area{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.test{
+    font-size: 50px;
+    text-align: center;
+}
+.js{
+    font-size: 100px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.jude{
+    padding-top: 50px;
+    text-align: center;
+}
+.test{
+    color: red;
+    font-size: 100px;
+}

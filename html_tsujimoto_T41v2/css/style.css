@@ -1,0 +1,490 @@
+/* ここから下に記載していく */
+body{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    justify-content: center;
+}
+.title{
+    font-size: 21px;
+    height: 120px;
+}
+.header-logo{
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+}
+.title ul{
+    float: right;
+    display: flex;
+}
+.title a{
+    padding-top: 30px;
+    margin: 50px 50px 50px 0;
+}
+.image-wrapper{
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+.world-geek{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: auto;
+    color: white;
+}
+.world-geek h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.world-geek h2{
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    text-align: center;
+}
+.about-wrapper{
+    text-align: center;
+}
+.about{
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 30px;
+}
+.exp{
+    font-size: 16px;
+}
+.cheese{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.school{
+    margin-bottom: 30px;
+}
+.about-wrapper p{
+    line-height: 30px;
+}
+.always{
+    margin-bottom: 40px;
+}
+.visual{
+    margin-top: 80px;
+    text-align: center;
+}
+.visual img{
+    float: left;
+    width: 25%;
+    margin-bottom: 60px;
+}
+.course{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.course-wrapper p{
+    line-height: 30px;
+    text-align: center;
+}
+.details{
+    margin-top: 60px;
+    height: 350px;
+}
+.details img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.description{
+    float: right;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+}
+.b{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    width: 450px;
+    margin-top: 100px;
+}
+.d{
+    margin-left: 20px;
+}
+.blank{
+    margin-left: 50px;
+    width: 450px;
+    line-height: 20px;
+}
+
+.detail{
+    height: 350px;
+    display: flex;
+}
+.des{
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+    position: relative;
+}
+.des p{
+    padding-right: 50px;
+}
+.d{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 430px;
+    margin-top: 100px;
+    position: absolute;
+    right: 50px;
+}
+.des h2 c{
+    width: 450px;
+    line-height: 20px;
+    position: absolute;
+    top: 180px;
+    right: 30px;
+}
+.sentence{
+    width: 450px;
+    line-height: 20px;
+    position: absolute;
+    top: 160px;
+    right: 30px;
+}
+.detail img{
+    display: flex;
+    height: 350px;
+    width: 50%;
+}
+
+.deta{
+    height: 350px;
+}
+.deta img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.de{
+    height: 350px;
+    margin-bottom: 60px;
+}
+.de img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.description{
+    float: right;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+}
+.new{
+    margin-top: 60px;
+    font-weight: bold;
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ne{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.news-wrpper{
+    width: 300px;
+    float: left;  
+}
+.news-wrppe{
+    width: 300px;
+    float: left;
+    margin: 0 30px 0 30px;
+}
+/* .news-wrppe:hover{
+    border: solid 2px blueviolet ;
+} */
+.news-wrppe img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.news-wrpper img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news-text{
+    font-size: 14px;
+}
+.news-texts{
+    font-size: 14px;
+}
+.news-textz{
+    font-size: 14px;
+}
+
+.date{
+    margin-bottom: 24px;
+}
+.kosu {
+    line-height: 25px;
+}
+.news-parent{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+/* .news-wrpper:hover{
+    border: solid 2px red ;
+} */
+.more{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: burlywood;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+    color: white;
+}
+.more:hover {
+    background-color: blue;
+}
+.access-wrapper{
+    /* background-color: aquamarine; */
+}
+.access{
+    padding-top: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.corp{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.tokyo{
+    padding-top: 60px;;
+}
+.name{
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.place{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.tel{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.fax{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.mail{
+    padding-bottom: 60px;
+    display: flex;
+    position: relative;
+}
+.contact-wrapper{
+    text-align: center;
+}
+.contact{
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.inq{
+    padding-bottom: 60px;
+}
+.foot{
+    line-height: 25px;
+}
+.caution{
+    padding-top: 30px;
+    line-height: 25px;
+}
+.cau{
+    padding-bottom: 70px;
+}
+.x{
+    position: absolute;
+    top: 0;
+    left:  30%;
+}
+.y{
+    position: absolute;
+    top: 0;
+    left:  45%;
+}
+
+ .kosuge{
+    line-height: 20px;
+ }
+ 
+
+
+/*コピーライト*/
+.copy-wrapper{
+    margin-top: 140px;
+    background-color: #707070;
+}
+.copy{
+    padding: 30px 0px;
+    text-align: center;
+    color: white;
+}
+.select{
+    height: 38px;
+    width: 360px;
+    margin-left: 8px;
+    padding-bottom: 1px;
+}
+
+
+
+.wrap {
+    padding-top: 600px;
+  }
+  .slideshow{
+    padding-top: 180px;
+    padding-bottom: 350px;
+  }
+  * {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 30px 50px;
+  }
+  h1 {
+    margin-bottom: 100px;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  /* スライドする要素 */
+  .content {
+    width: 1000px;
+    height: 800px;
+  }
+  
+  /* スライドレールの枠 */
+  .wrap {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin-bottom: 100px;
+  }
+  /* content4つをまとめたスライドブロック */
+  .slideshow {
+    display: flex;
+    -webkit-animation: loop-slide 20s infinite linear 1s both;
+    animation: loop-slide 20s infinite linear 1s both;
+  }
+  @-webkit-keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-800%);
+    }
+  }
+  @keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  /* ホバー時に動きを止める（パターン2・3）*/
+  .slide-paused:hover .slideshow {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  /* ホバー時の装飾（パターン3） */
+  .content-hover {
+    transition: all 0.2s;
+    margin-right: 20px;
+  }
+  .content-hover:hover {
+    transform: translateY(-20px);
+    border-radius: 0 10%;
+    box-shadow: 0 3px 10px 0 #333;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  /* 効果をつける */
+.nature{
+    /* 最初は非表示 */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s, visibility 1s, transform 1s;
+  }
+  /* フェードイン時に入るクラス */
+  .is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .school{
+    /* 最初は非表示 */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s, visibility 1s, transform 1s;
+  }
+  /* フェードイン時に入るクラス */
+  .is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .taste{
+    /* 最初は非表示 */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+    transition: opacity 1s, visibility 1s, transform 1s;
+  }
+  /* フェードイン時に入るクラス */
+  .is-fadein {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }

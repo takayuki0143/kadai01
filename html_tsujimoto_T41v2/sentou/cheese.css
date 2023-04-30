@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+
+
+.img{
+    padding-top: 50px;
+    height: 500px;
+    width: 600px;
+    border-radius: 100px;
+}
+.button{
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    height: 80px;
+    width: 600px;
+    cursor:pointer;
+}
+.change{
+    margin-top: 20px;
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bold;
+}
+.title{
+    font-size: 24px;
+    color: red;
+}

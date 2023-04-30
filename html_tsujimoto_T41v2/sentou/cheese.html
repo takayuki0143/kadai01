@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cheese.css">
+    <title>やせいのきんにくがあらわれた！！！</title>
+</head>
+<body>
+    <!-- <div id="change">0</div> -->
+    <img src="kusa.jpeg" alt="" id="image" class="img">
+
+    <h2 class="title" id="title"></h2>
+    <button id="open" class="button">なにかがこっちをみている…！！</button>
+    <div id="change" class="change"></div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <audio src="Tenseness.mp3" id="sound"></audio>
+    <audio src="power.mp3" id="sounds"></audio>
+    <audio src="tanpaku.mp3" id="soundz"></audio>
+    <script>
+
+    clickCount = 0;
+    $("#open").on("click",function(){
+    clickCount++;
+    sound.play();
+
+    if(clickCount ==  1){
+        r = 'やせいのきんにくがあらわれた！！！';
+        $("#open").html(r);
+        $("#open").css("background-color","blue");
+        $("#image").attr("src","syuukaku.jpeg");
+    }   
+
+    if(clickCount ==  2){
+        r = 'たかゆきのたーん';
+        $("#open").html(r);
+        $("#open").css("background-color","red");
+        $("#image").attr("src","takayuki.JPG");
+        n = 'たかゆきのきんにくこうげき！！';
+        $("#change").html(n);
+
+    }   
+
+    if(clickCount == 3){
+        r = 'たかゆきのたーん';
+        $("#open").html(r);
+        $("#open").css("background-color","red");
+        $("#image").attr("src","syuukaku.jpeg");
+        n = 'こうかはいまひとつのようだ…！';
+        $("#change").html(n);
+    }
+
+    if(clickCount ==  4){
+        s = 'きんにくのたーん';
+        $("#open").html(s);
+        $("#open").css("background-color","purple");
+        $("#image").attr("src","syuukaku.jpeg");
+        n = 'きんにくのストレスこうげき！！';
+        $("#change").html(n);
+    }
+
+    if(clickCount == 5){
+        s = 'きんにくのたーん';
+        $("#open").html(s);
+        $("#open").css("background-color","purple");
+        $("#image").attr("src","takayuki.JPG");
+        n = 'きゅうしょにあたった！';
+        $("#change").html(n);
+    }
+
+    if(clickCount ==  6){
+        r = 'たかゆきのたーん';
+        $("#open").html(r);
+        $("#open").css("background-color","red");
+        $("#image").attr("src","takayuki.JPG");
+        n = 'たかゆきのくうふくこうげき！！';
+        $("#change").html(n);
+    }
+
+    if(clickCount == 7){
+        r = 'たかゆきのたーん';
+        $("#open").html(r);
+        $("#open").css("background-color","red");
+        $("#image").attr("src","syuukaku.jpeg");
+        n = 'こうかはばつぐんだ！！！';
+        $("#change").html(n);
+    }
+
+    if(clickCount == 8){
+        r = 'たかゆきのたーん';
+        $("#open").html(r);
+        $("#open").css("background-color","red");
+        $("#image").attr("src","cheese.jpg");
+        n = 'あいてのきんにくはたおれた！!';
+        $("#change").html(n);
+        sounds.play();
+        sound.pause();
+    }
+
+    if(clickCount == 9){
+        r = 'けっか';
+        $("#open").html(r);
+        $("#open").css("background-color","orange");
+        $("#image").attr("src","goukaku.jpeg");
+        n = 'ごうかくつうちをてにいれた！！';
+        $("#change").html(n);
+        sound.pause();
+        soundz.play();
+    }
+
+    if(clickCount == 10){
+        $("#open").on("click",function(){
+                location.replace("file:///Users/takayuki/Desktop/html_tsujimoto_T41v2/index.html");
+            });
+    }
+
+});
+
+    </script>
+</body>
+</html>
