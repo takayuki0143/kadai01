@@ -1,0 +1,458 @@
+/* ここから下に記載していく */
+body{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    justify-content: center;
+}
+.title{
+    font-size: 21px;
+    height: 120px;
+}
+.header-logo{
+    float: left;
+    margin-left: 50px;
+    padding: 20px 0;
+}
+.title ul{
+    float: right;
+    display: flex;
+}
+.title a{
+    margin: 50px 50px 50px 0;
+}
+.image-wrapper{
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+.world-geek{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: auto;
+    color: white;
+}
+.world-geek h1{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.world-geek h2{
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    transform: translate(-50%,-50%);
+    width: 1200px;
+    text-align: center;
+}
+.about-wrapper{
+    text-align: center;
+}
+.about{
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 30px;
+}
+.exp{
+    font-size: 16px;
+}
+.cheese{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.school{
+    margin-bottom: 30px;
+}
+.about-wrapper p{
+    line-height: 30px;
+}
+.always{
+    margin-bottom: 40px;
+}
+.visual{
+    margin-top: 80px;
+    text-align: center;
+}
+.visual img{
+    float: left;
+    width: 25%;
+    margin-bottom: 60px;
+}
+.course{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.course-wrapper p{
+    line-height: 30px;
+    text-align: center;
+}
+.details{
+    margin-top: 60px;
+    height: 350px;
+}
+.details img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.description{
+    float: right;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+}
+.b{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    width: 450px;
+    margin-top: 100px;
+}
+.description h2{
+    margin-left: 50px;
+    width: 450px;
+    line-height: 20px;
+}
+
+.detail{
+    height: 350px;
+    display: flex;
+}
+.des{
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+    position: relative;
+}
+.des p{
+    padding-right: 50px;
+}
+.d{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 430px;
+    margin-top: 100px;
+    position: absolute;
+    right: 50px;
+}
+.des h2 c{
+    width: 450px;
+    line-height: 20px;
+    position: absolute;
+    top: 180px;
+    right: 30px;
+}
+.sentence{
+    width: 450px;
+    line-height: 20px;
+    position: absolute;
+    top: 160px;
+    right: 30px;
+}
+.detail img{
+    display: flex;
+    height: 350px;
+    width: 50%;
+}
+
+.deta{
+    height: 350px;
+}
+.deta img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.de{
+    height: 350px;
+    margin-bottom: 60px;
+}
+.de img{
+    float: left;
+    height: 350px;
+    width: 50%;
+}
+.description{
+    float: right;
+    /* background-color: aqua; */
+    height: 350px;
+    width: 50%;
+}
+.new{
+    margin-top: 60px;
+    font-weight: bold;
+    color: yellow;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ne{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.news-wrpper{
+    width: 300px;
+    float: left;  
+}
+.news-wrppe{
+    width: 300px;
+    float: left;
+    margin: 0 30px 0 30px;
+}
+.news-wrppe:hover{
+    border: solid 2px blueviolet ;
+}
+.news-wrppe img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.news-wrpper img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news-text{
+    font-size: 14px;
+}
+.date{
+    margin-bottom: 24px;
+}
+.kosu {
+    line-height: 25px;
+}
+.news-parent{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.news-wrpper:hover{
+    border: solid 2px red ;
+}
+.more{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: burlywood;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+    color: white;
+}
+.more:hover {
+    background-color: blue;
+}
+.access-wrapper{
+    /* background-color: aquamarine; */
+}
+.access{
+    padding-top: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.corp{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.tokyo{
+    padding-top: 60px;;
+}
+.name{
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.place{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.tel{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.fax{
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.mail{
+    padding-bottom: 60px;
+    display: flex;
+    position: relative;
+}
+.contact-wrapper{
+    text-align: center;
+}
+.contact{
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.inq{
+    padding-bottom: 60px;
+}
+.foot{
+    line-height: 25px;
+}
+.caution{
+    padding-top: 30px;
+    line-height: 25px;
+}
+.cau{
+    padding-bottom: 70px;
+}
+.x{
+    position: absolute;
+    top: 0;
+    left:  30%;
+}
+.y{
+    position: absolute;
+    top: 0;
+    left:  45%;
+}
+
+/*form作成！！鬼門！*/
+.form-warpper{
+    border-top: solid 3px gray;
+    width: 750px;  
+    /* height: 400px; */
+    margin: auto;
+    margin-bottom: 30px;
+}
+.individual{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 3px gray;
+    display: flex;
+    height: 35px;
+    
+}
+.left-side{
+    padding-right: 200px;
+    line-height: 35px;
+    border-right: solid 3px gray;
+    padding-left: 20px;
+    width: 45px;
+}
+.left-side p{
+    font-size: 15px;
+    width: 120px;
+}
+.z1{
+    font-size: 15px;
+    width: 180px;
+    height: 13px;
+    width: 450px;
+    line-height: 20px;
+    top: 160px;
+    right: 30px;
+    padding-bottom: 6px;
+}
+.z{
+    font-size: 15px;
+    width: 180px;
+    height: 13px;
+    width: 450px;
+    line-height: 20px;
+    top: 160px;
+    right: 30px;
+    
+}
+.in{
+    height: 30px;
+    width: 350px;
+    margin-left: 8px;
+}
+.why{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 3px gray;
+    display: flex;
+    height: 100px;
+}
+.memo{
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: solid 3px gray;
+    display: flex;
+    height: 150px;
+}
+.right-side textarea{
+    margin-left: 8px;
+    width: 350px;
+}
+.form{
+    padding: 8px 0px;
+}
+.antr{
+    display: block;
+}
+.label{
+    display: flex;
+    padding-left: 8px;
+    margin-bottom: 4px;
+
+}
+
+.send-wrapper{
+    margin-top: 30px;
+}
+.send{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: burlywood;
+    border: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+    color: white;
+}
+.send:hover{
+    background-color: blue;
+}
+
+/*コピーライト*/
+.copy-wrapper{
+    margin-top: 140px;
+    background-color: #707070;
+}
+.copy{
+    padding: 30px 0px;
+    text-align: center;
+    color: white;
+}
+.select{
+    height: 38px;
+    width: 360px;
+    margin-left: 8px;
+    padding-bottom: 1px;
+}
+
+
+
+
